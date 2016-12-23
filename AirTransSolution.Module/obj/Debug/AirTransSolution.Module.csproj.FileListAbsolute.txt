@@ -1,0 +1,7 @@
+D:\Projects\AirTransSolution\AirTransSolution.Module\bin\Debug\AirTransSolution.Module.dll
+D:\Projects\AirTransSolution\AirTransSolution.Module\bin\Debug\AirTransSolution.Module.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.csprojResolveAssemblyReference.cache
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.AirTransSolutionModule.resources
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.csproj.GenerateResource.Cache
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.dll
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.pdb

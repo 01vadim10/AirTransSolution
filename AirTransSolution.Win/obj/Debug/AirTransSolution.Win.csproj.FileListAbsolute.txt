@@ -1,0 +1,14 @@
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe.config
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\Model.xafml
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.dll
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.Win.dll
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.Win.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Win\obj\Debug\AirTransSolution.Win.csprojResolveAssemblyReference.cache
+D:\Projects\AirTransSolution\AirTransSolution.Win\obj\Debug\AirTransSolution.Win.Properties.Resources.resources
+D:\Projects\AirTransSolution\AirTransSolution.Win\obj\Debug\AirTransSolution.Win.AirTransSolutionWindowsFormsApplication.resources
+D:\Projects\AirTransSolution\AirTransSolution.Win\obj\Debug\AirTransSolution.Win.csproj.GenerateResource.Cache
+D:\Projects\AirTransSolution\AirTransSolution.Win\obj\Debug\AirTransSolution.Win.exe
+D:\Projects\AirTransSolution\AirTransSolution.Win\obj\Debug\AirTransSolution.Win.pdb

@@ -5,6 +5,8 @@ using DevExpress.ExpressApp;
 using System.ComponentModel;
 using DevExpress.ExpressApp.DC;
 using System.Collections.Generic;
+using AirTransSolution.Module.BusinessObjects;
+using AirTransSolution.Module.Reports;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.ExpressApp.Model;
@@ -14,6 +16,7 @@ using DevExpress.ExpressApp.Updating;
 using DevExpress.ExpressApp.Model.Core;
 using DevExpress.ExpressApp.Model.DomainLogics;
 using DevExpress.ExpressApp.Model.NodeGenerators;
+using DevExpress.ExpressApp.ReportsV2;
 using DevExpress.ExpressApp.Xpo;
 
 namespace AirTransSolution.Module {
@@ -25,7 +28,10 @@ namespace AirTransSolution.Module {
         }
         public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
             ModuleUpdater updater = new DatabaseUpdate.Updater(objectSpace, versionFromDB);
-            return new ModuleUpdater[] { updater };
+            PredefinedReportsUpdater predefinedReportsUpdater = new PredefinedReportsUpdater(Application, objectSpace, versionFromDB);
+            predefinedReportsUpdater.AddPredefinedReport<MyTaskReports>("Airport Report", typeof(Airport), isInplaceReport: true);
+            predefinedReportsUpdater.AddPredefinedReport<PilotRep>("Pilot Report", typeof(Pilot), isInplaceReport: true);
+            return new ModuleUpdater[] { updater, predefinedReportsUpdater };
         }
         public override void Setup(XafApplication application) {
             base.Setup(application);

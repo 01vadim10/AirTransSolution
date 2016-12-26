@@ -5,3 +5,6 @@ D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.
 D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.csproj.GenerateResource.Cache
 D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.dll
 D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.dll.licenses
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.Reports.MyTaskReports.resources
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.Reports.PilotRep.resources

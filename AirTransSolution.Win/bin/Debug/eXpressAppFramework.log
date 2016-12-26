@@ -631,3 +631,1111 @@ Loaded assemblies
 
 23.12.16 15:38:26.338	Application stopping
 =====================
+26.12.16 11:07:39.793	================================================================================
+26.12.16 11:07:39.794	Trace Log for AirTransSolution.Win.vshost.exe is started
+26.12.16 11:07:39.794	================================================================================
+26.12.16 11:07:39.796	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 4.0.30319.36366
+	eXpressApp Version: 16.1.8.0
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+26.12.16 11:07:40.110	Initialize application
+=======================
+26.12.16 11:07:40.112		Command line arguments: 
+		D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.vshost.exe
+26.12.16 11:07:40.363	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.12.16 11:07:40.363	--------------------------------------------------------------------------------
+							
+
+26.12.16 11:07:40.629	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll
+	AirTransSolution.Module, Version=1.0.6204.20028, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.dll
+	AirTransSolution.Module.Win, Version=1.0.6204.20028, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.Win.dll
+	AirTransSolution.Win, Version=1.0.6204.20028, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe
+	DevExpress.BonusSkins.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.BonusSkins.v16.1.dll
+	DevExpress.Data.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Data.v16.1.dll
+	DevExpress.ExpressApp.Images.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v16.1.dll
+	DevExpress.ExpressApp.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.v16.1.dll
+	DevExpress.ExpressApp.v16.1.resources, Version=16.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v16.1.resources\v4.0_16.1.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v16.1.resources.dll
+	DevExpress.ExpressApp.Win.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v16.1.dll
+	DevExpress.ExpressApp.Xpo.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v16.1.dll
+	DevExpress.Office.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Office.v16.1.Core.dll
+	DevExpress.Persistent.Base.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Persistent.Base.v16.1.dll
+	DevExpress.Persistent.BaseImpl.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v16.1.dll
+	DevExpress.Printing.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Printing.v16.1.Core.dll
+	DevExpress.RichEdit.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.RichEdit.v16.1.Core.dll
+	DevExpress.Utils.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Utils.v16.1.dll
+	DevExpress.Xpo.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Xpo.v16.1.dll
+	DevExpress.XtraBars.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraBars.v16.1.dll
+	DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraEditors.v16.1.dll
+	DevExpress.XtraGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraGrid.v16.1.dll
+	DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraLayout.v16.1.dll
+	DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraNavBar.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraNavBar.v16.1.dll
+	DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraPrinting.v16.1.dll
+	DevExpress.XtraRichEdit.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v16.1.dll
+	DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraTreeList.v16.1.dll
+	DevExpress.XtraVerticalGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v16.1.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll
+	System.Deployment.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment.resources\v4.0_4.0.0.0_ru_b03f5f7f11d50a3a\System.Deployment.resources.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	vshost32, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.vshost.exe
+26.12.16 11:07:40.852	SetupModules
+26.12.16 11:07:41.089	Customize TypesInfo
+26.12.16 11:07:41.200	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.12.16 11:07:41.204	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   в DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   в DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   в DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   в DevExpress.ExpressApp.XafApplication.Setup()
+   в AirTransSolution.Win.Program.Main() в d:\Projects\AirTransSolution\AirTransSolution.Win\Program.cs:строка 41
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.12.16 11:07:42.754		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.12.16 11:07:42.757		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.12.16 11:07:42.757	--------------------------------------------------------------------------------
+							Start logon process
+
+26.12.16 11:07:42.757	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.12.16 11:07:42.757		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=AirTransSolution;
+26.12.16 11:07:42.757		ConnectionString: 
+26.12.16 11:07:43.405	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.12.16 11:07:43.467		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=AirTransSolution;
+26.12.16 11:07:43.672	--------------------------------------------------------------------------------
+							Logon successful
+
+26.12.16 11:07:43.674	--------------------------------------------------------------------------------
+							Logon completed
+
+26.12.16 11:07:43.676		startUpActions: 0
+26.12.16 11:07:43.722	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.12.16 11:07:43.744	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:07:43.744		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.12.16 11:07:43.746		SelectedItem: Visual Studio 2013 Blue
+26.12.16 11:07:43.746	Action 'ChooseSkin' done
+26.12.16 11:07:45.001	Generate default Model for Action containers
+26.12.16 11:07:45.905	Resolve the 'DevExpress.ExpressApp.Win.v16.1.XmlSerializers, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.12.16 11:07:45.969	Resolve the 'DevExpress.ExpressApp.Win.v16.1.XmlSerializers, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.12.16 11:07:46.214	The "AirTransSolution.Module.BusinessObjects.Pilot" type declared with the DefaultProperty value of "Full Name" doesn't contain this property or the property is declared as private
+26.12.16 11:07:47.541	Application startup done
+=========================
+26.12.16 11:07:47.541	Application running
+====================
+26.12.16 11:08:12.377	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:08:12.379		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Pilot
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(da24ebc7-5177-4d65-9866-dd9c28a80df9)
+
+26.12.16 11:08:12.976	Action 'ListViewShowObject' done
+26.12.16 11:08:21.840	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:08:21.840		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 11:08:21.842		SelectedItem: Airport
+26.12.16 11:08:22.020	Action 'ShowNavigationItem' done
+26.12.16 11:08:24.061	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:08:24.061		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 11:08:24.061		SelectedItem: Airplane
+26.12.16 11:08:24.250	Action 'ShowNavigationItem' done
+26.12.16 11:08:29.510	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:08:29.510		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Airplane
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Airbus 8000
+
+26.12.16 11:08:29.722	Action 'ListViewShowObject' done
+26.12.16 11:08:36.093	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:08:36.093		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 11:08:36.093		SelectedItem: Pilot
+26.12.16 11:08:36.190	Action 'ShowNavigationItem' done
+26.12.16 11:08:40.447	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:08:40.449		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Pilot
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(da24ebc7-5177-4d65-9866-dd9c28a80df9)
+
+26.12.16 11:08:40.541	Action 'ListViewShowObject' done
+26.12.16 11:08:53.011	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:08:53.011		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Pilot
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(da24ebc7-5177-4d65-9866-dd9c28a80df9)
+
+26.12.16 11:08:53.011		SelectedItem: Pilot
+26.12.16 11:08:53.349	Action 'New' done
+26.12.16 11:08:56.970	Window closing: Pilot
+26.12.16 11:08:56.972	ConfirmationRequest: NeedSaveChanges
+26.12.16 11:08:56.974		DefaultConfirmationResult: No
+26.12.16 11:08:58.731		UserConfirmationResult: No
+26.12.16 11:08:58.735	Window closed: Pilot
+26.12.16 11:09:03.575	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:09:03.575		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Close
+								Category: Close
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.CloseWindowController
+								Context.Name: Pilot
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(da24ebc7-5177-4d65-9866-dd9c28a80df9)
+
+26.12.16 11:09:03.575	Window closing: Joe - Pilot
+26.12.16 11:09:03.577	Window closed: Joe - Pilot
+26.12.16 11:09:03.669	Action 'Close' done
+26.12.16 11:09:14.948	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:09:14.950		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Airplane
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: GreenJet
+
+26.12.16 11:09:15.172	Action 'ListViewShowObject' done
+26.12.16 11:09:24.112	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 11:09:24.112		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Close
+								Category: Close
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.CloseWindowController
+								Context.Name: Airplane
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: GreenJet
+
+26.12.16 11:09:24.120	Window closing: GreenJet - Airplane
+26.12.16 11:09:24.122	Window closed: GreenJet - Airplane
+26.12.16 11:09:24.214	Action 'Close' done
+26.12.16 11:09:31.068	Window closing: Pilot
+26.12.16 11:09:31.070	Window closing: Airport
+26.12.16 11:09:31.070	Window closing: Airplane
+26.12.16 11:09:31.072	Window closing: Airbus 8000 - Airplane
+26.12.16 11:09:31.072	Window closing: Airplane - AirTransSolution
+26.12.16 11:09:31.092	Window closed: Pilot
+26.12.16 11:09:31.092	Window closed: Airport
+26.12.16 11:09:31.094	Window closed: Airplane
+26.12.16 11:09:31.094	Window closed: Airbus 8000 - Airplane
+26.12.16 11:09:31.094	Window closed: Airplane - AirTransSolution
+26.12.16 11:09:31.397	Save model changes
+===================
+26.12.16 11:09:31.401	Save model changes
+===================
+26.12.16 11:09:31.405	--------------------------------------------------------------------------------
+							Logoff completed
+
+26.12.16 11:09:31.405	Application stopping
+=====================
+26.12.16 13:15:04.063	================================================================================
+26.12.16 13:15:04.063	Trace Log for AirTransSolution.Win.vshost.exe is started
+26.12.16 13:15:04.065	================================================================================
+26.12.16 13:15:04.066	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 4.0.30319.36366
+	eXpressApp Version: 16.1.8.0
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+26.12.16 13:15:04.079	Initialize application
+=======================
+26.12.16 13:15:04.079		Command line arguments: 
+		D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.vshost.exe
+26.12.16 13:15:04.121	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.12.16 13:15:04.121	--------------------------------------------------------------------------------
+							
+
+26.12.16 13:15:04.249	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll
+	AirTransSolution.Module, Version=1.0.6204.23744, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.dll
+	AirTransSolution.Module.Win, Version=1.0.6204.23851, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.Win.dll
+	AirTransSolution.Win, Version=1.0.6204.23851, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe
+	DevExpress.BonusSkins.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.BonusSkins.v16.1.dll
+	DevExpress.Data.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Data.v16.1.dll
+	DevExpress.ExpressApp.Images.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v16.1.dll
+	DevExpress.ExpressApp.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.v16.1.dll
+	DevExpress.ExpressApp.v16.1.resources, Version=16.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v16.1.resources\v4.0_16.1.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v16.1.resources.dll
+	DevExpress.ExpressApp.Win.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v16.1.dll
+	DevExpress.ExpressApp.Xpo.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v16.1.dll
+	DevExpress.Office.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Office.v16.1.Core.dll
+	DevExpress.Persistent.Base.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Persistent.Base.v16.1.dll
+	DevExpress.Persistent.BaseImpl.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v16.1.dll
+	DevExpress.Printing.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Printing.v16.1.Core.dll
+	DevExpress.RichEdit.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.RichEdit.v16.1.Core.dll
+	DevExpress.Utils.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Utils.v16.1.dll
+	DevExpress.Xpo.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Xpo.v16.1.dll
+	DevExpress.XtraBars.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraBars.v16.1.dll
+	DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraEditors.v16.1.dll
+	DevExpress.XtraGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraGrid.v16.1.dll
+	DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraLayout.v16.1.dll
+	DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraNavBar.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraNavBar.v16.1.dll
+	DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraPrinting.v16.1.dll
+	DevExpress.XtraRichEdit.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v16.1.dll
+	DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraTreeList.v16.1.dll
+	DevExpress.XtraVerticalGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v16.1.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll
+	System.Deployment.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment.resources\v4.0_4.0.0.0_ru_b03f5f7f11d50a3a\System.Deployment.resources.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	vshost32, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.vshost.exe
+26.12.16 13:15:04.270	SetupModules
+26.12.16 13:15:04.356	Customize TypesInfo
+26.12.16 13:15:04.358	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.12.16 13:15:04.362	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   в DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   в DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   в DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   в DevExpress.ExpressApp.XafApplication.Setup()
+   в AirTransSolution.Win.Program.Main() в d:\Projects\AirTransSolution\AirTransSolution.Win\Program.cs:строка 41
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.12.16 13:15:05.182		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.12.16 13:15:05.182		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.12.16 13:15:05.182	--------------------------------------------------------------------------------
+							Start logon process
+
+26.12.16 13:15:05.184	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.12.16 13:15:05.184		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=AirTransSolution;
+26.12.16 13:15:05.184		ConnectionString: 
+26.12.16 13:15:05.682	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.12.16 13:15:05.753		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=AirTransSolution;
+26.12.16 13:15:05.975	--------------------------------------------------------------------------------
+							Logon successful
+
+26.12.16 13:15:05.979	--------------------------------------------------------------------------------
+							Logon completed
+
+26.12.16 13:15:05.979		startUpActions: 0
+26.12.16 13:15:06.001	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.12.16 13:15:06.007	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 13:15:06.009		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.12.16 13:15:06.009		SelectedItem: Visual Studio 2013 Blue
+26.12.16 13:15:06.009	Action 'ChooseSkin' done
+26.12.16 13:15:06.135	Generate default Model for Action containers
+26.12.16 13:15:06.639	Resolve the 'DevExpress.ExpressApp.Win.v16.1.XmlSerializers, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.12.16 13:15:06.678	Resolve the 'DevExpress.ExpressApp.Win.v16.1.XmlSerializers, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.12.16 13:15:07.388	Application startup done
+=========================
+26.12.16 13:15:07.388	Application running
+====================
+26.12.16 13:15:11.290	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 13:15:11.292		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 13:15:11.292		SelectedItem: Airport
+26.12.16 13:15:11.643	Action 'ShowNavigationItem' done
+26.12.16 13:15:13.988	Window closing: Airplane
+26.12.16 13:15:13.991	Window closed: Airplane
+26.12.16 13:15:18.629	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 13:15:18.629		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Airport
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Airport(d5fadf24-0c48-4c8b-a3f6-b78422c8cb49)
+
+26.12.16 13:15:18.745	The "AirTransSolution.Module.BusinessObjects.Pilot" type declared with the DefaultProperty value of "Full Name" doesn't contain this property or the property is declared as private
+26.12.16 13:15:19.015	Action 'ListViewShowObject' done
+26.12.16 13:15:26.218	Window closing: Hokkaido - Airport
+26.12.16 13:15:26.220	Window closed: Hokkaido - Airport
+26.12.16 13:15:31.158	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 13:15:31.160		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 13:15:31.160		SelectedItem: Pilot
+26.12.16 13:15:31.338	Action 'ShowNavigationItem' done
+26.12.16 13:15:32.815	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 13:15:32.816		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Pilot
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(42c5bbe2-b501-484c-803b-78bc7622e3f0)
+
+26.12.16 13:15:33.163	Action 'ListViewShowObject' done
+26.12.16 13:15:43.156	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 13:15:43.158		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 13:15:43.158		SelectedItem: Airplane
+26.12.16 13:15:43.347	Action 'ShowNavigationItem' done
+26.12.16 13:15:45.002	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 13:15:45.002		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Airplane
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Airbus 8000
+
+26.12.16 13:15:45.263	Action 'ListViewShowObject' done
+26.12.16 13:15:50.440	Window closing: Airport
+26.12.16 13:15:50.440	Window closing: Pilot
+26.12.16 13:15:50.442	Window closing: Crocus - Pilot
+26.12.16 13:15:50.442	Window closing: Airplane
+26.12.16 13:15:50.442	Window closing: Airbus 8000 - Airplane
+26.12.16 13:15:50.444	Window closing: Airbus 8000 - Airplane - AirTransSolution
+26.12.16 13:15:50.486	Window closed: Airport
+26.12.16 13:15:50.487	Window closed: Pilot
+26.12.16 13:15:50.487	Window closed: Crocus - Pilot
+26.12.16 13:15:50.488	Window closed: Airplane
+26.12.16 13:15:50.488	Window closed: Airbus 8000 - Airplane
+26.12.16 13:15:50.488	Window closed: Airbus 8000 - Airplane - AirTransSolution
+26.12.16 13:15:51.197	Save model changes
+===================
+26.12.16 13:15:51.201	Save model changes
+===================
+26.12.16 13:15:51.211	--------------------------------------------------------------------------------
+							Logoff completed
+
+26.12.16 13:15:51.211	Application stopping
+=====================
+26.12.16 15:32:51.714	================================================================================
+26.12.16 15:32:51.716	Trace Log for AirTransSolution.Win.vshost.exe is started
+26.12.16 15:32:51.716	================================================================================
+26.12.16 15:32:51.718	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 4.0.30319.36366
+	eXpressApp Version: 16.1.8.0
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+26.12.16 15:32:51.732	Initialize application
+=======================
+26.12.16 15:32:51.732		Command line arguments: 
+		D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.vshost.exe
+26.12.16 15:32:51.810	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.12.16 15:32:51.810	--------------------------------------------------------------------------------
+							
+
+26.12.16 15:32:51.951	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll
+	AirTransSolution.Module, Version=1.0.6204.27905, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.dll
+	AirTransSolution.Module.Win, Version=1.0.6204.27984, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.Win.dll
+	AirTransSolution.Win, Version=1.0.6204.27985, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.BonusSkins.v16.1.dll
+	DevExpress.Data.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Data.v16.1.dll
+	DevExpress.ExpressApp.Images.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v16.1.dll
+	DevExpress.ExpressApp.ReportsV2.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v16.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v16.1.dll
+	DevExpress.ExpressApp.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.v16.1.dll
+	DevExpress.ExpressApp.v16.1.resources, Version=16.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v16.1.resources\v4.0_16.1.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v16.1.resources.dll
+	DevExpress.ExpressApp.Win.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v16.1.dll
+	DevExpress.ExpressApp.Xpo.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v16.1.dll
+	DevExpress.Office.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Office.v16.1.Core.dll
+	DevExpress.Persistent.Base.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Persistent.Base.v16.1.dll
+	DevExpress.Persistent.BaseImpl.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v16.1.dll
+	DevExpress.Printing.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Printing.v16.1.Core.dll
+	DevExpress.RichEdit.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.RichEdit.v16.1.Core.dll
+	DevExpress.Utils.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Utils.v16.1.dll
+	DevExpress.Xpo.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Xpo.v16.1.dll
+	DevExpress.XtraBars.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraBars.v16.1.dll
+	DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraEditors.v16.1.dll
+	DevExpress.XtraGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraGrid.v16.1.dll
+	DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraLayout.v16.1.dll
+	DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraNavBar.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraNavBar.v16.1.dll
+	DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraPrinting.v16.1.dll
+	DevExpress.XtraReports.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraReports.v16.1.dll
+	DevExpress.XtraReports.v16.1.Extensions, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v16.1.Extensions\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraReports.v16.1.Extensions.dll
+	DevExpress.XtraRichEdit.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v16.1.dll
+	DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraTreeList.v16.1.dll
+	DevExpress.XtraVerticalGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v16.1.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll
+	System.Deployment.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment.resources\v4.0_4.0.0.0_ru_b03f5f7f11d50a3a\System.Deployment.resources.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	vshost32, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.vshost.exe
+26.12.16 15:32:51.973	SetupModules
+26.12.16 15:32:52.064	Customize TypesInfo
+26.12.16 15:32:52.069	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.12.16 15:32:52.071	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   в DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   в DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   в DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   в DevExpress.ExpressApp.XafApplication.Setup()
+   в AirTransSolution.Win.Program.Main() в d:\Projects\AirTransSolution\AirTransSolution.Win\Program.cs:строка 41
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.12.16 15:32:53.101		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.12.16 15:32:53.103		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.12.16 15:32:53.103	--------------------------------------------------------------------------------
+							Start logon process
+
+26.12.16 15:32:53.105	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.12.16 15:32:53.105		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=AirTransSolution;
+26.12.16 15:32:53.105		ConnectionString: 
+26.12.16 15:32:53.660	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.12.16 15:32:53.751		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=AirTransSolution;
+26.12.16 15:32:54.199	--------------------------------------------------------------------------------
+							Logon successful
+
+26.12.16 15:32:54.203	--------------------------------------------------------------------------------
+							Logon completed
+
+26.12.16 15:32:54.220		startUpActions: 0
+26.12.16 15:32:54.249	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.12.16 15:32:54.257	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:32:54.258		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.12.16 15:32:54.258		SelectedItem: Visual Studio 2013 Blue
+26.12.16 15:32:54.259	Action 'ChooseSkin' done
+26.12.16 15:32:54.384	Generate default Model for Action containers
+26.12.16 15:32:54.982	Resolve the 'DevExpress.ExpressApp.Win.v16.1.XmlSerializers, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.12.16 15:32:55.028	Resolve the 'DevExpress.ExpressApp.Win.v16.1.XmlSerializers, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.12.16 15:32:55.412	The "AirTransSolution.Module.BusinessObjects.Pilot" type declared with the DefaultProperty value of "Full Name" doesn't contain this property or the property is declared as private
+26.12.16 15:32:56.099	Application startup done
+=========================
+26.12.16 15:32:56.101	Application running
+====================
+26.12.16 15:33:06.992	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:33:06.993		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 15:33:06.994		SelectedItem: Отчеты
+26.12.16 15:33:07.174	Action 'ShowNavigationItem' done
+26.12.16 15:33:18.178	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:33:18.178		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Отчет
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(b38c0a17-de16-4ee5-bbb8-35229770a2ae)
+
+26.12.16 15:33:18.180	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:33:18.180		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ExecuteReportV2
+								Category: Reports
+								Controller.Name: DevExpress.ExpressApp.ReportsV2.Win.WinReportsController
+								Context.Name: Отчет
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(b38c0a17-de16-4ee5-bbb8-35229770a2ae)
+
+26.12.16 15:33:19.003	Action 'ExecuteReportV2' done
+26.12.16 15:33:19.003	Action 'ListViewShowObject' done
+26.12.16 15:33:56.881	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:33:56.883		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Отчет
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(b38c0a17-de16-4ee5-bbb8-35229770a2ae)
+
+26.12.16 15:33:56.911	Action 'Refresh' done
+26.12.16 15:34:04.511	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:34:04.511		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ExecuteReportV2
+								Category: Reports
+								Controller.Name: DevExpress.ExpressApp.ReportsV2.Win.WinReportsController
+								Context.Name: Отчет
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(b38c0a17-de16-4ee5-bbb8-35229770a2ae)
+
+26.12.16 15:34:04.936	Action 'ExecuteReportV2' done
+26.12.16 15:34:16.836	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:34:16.837		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 15:34:16.838		SelectedItem: Airplane
+26.12.16 15:34:17.150	Action 'ShowNavigationItem' done
+26.12.16 15:34:18.648	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:34:18.649		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Airplane
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Airbus 8000
+
+26.12.16 15:34:18.759	Action 'ListViewShowObject' done
+26.12.16 15:34:21.677	Window closing: Airbus 8000 - Airplane
+26.12.16 15:34:21.681	Window closed: Airbus 8000 - Airplane
+26.12.16 15:34:33.364	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:34:33.364		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Close
+								Category: Close
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.CloseWindowController
+								Context.Name: Отчет
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(b38c0a17-de16-4ee5-bbb8-35229770a2ae)
+
+26.12.16 15:34:33.366	Window closing: Отчет
+26.12.16 15:34:33.366	Window closed: Отчет
+26.12.16 15:34:33.457	Action 'Close' done
+26.12.16 15:34:35.105	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:34:35.107		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Close
+								Category: Close
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.CloseWindowController
+								Context.Name: Airplane
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Airbus 8000
+
+26.12.16 15:34:35.107	Window closing: Airplane
+26.12.16 15:34:35.109	Window closed: Airplane
+26.12.16 15:34:35.129	Action 'Close' done
+26.12.16 15:34:40.627	Window closing: Crocus - Pilot
+26.12.16 15:34:40.629	Window closing: Crocus - Pilot - AirTransSolution
+26.12.16 15:34:40.649	Window closed: Crocus - Pilot
+26.12.16 15:34:40.650	Window closed: Crocus - Pilot - AirTransSolution
+26.12.16 15:34:40.744	Save model changes
+===================
+26.12.16 15:34:40.750	Save model changes
+===================
+26.12.16 15:34:40.753	--------------------------------------------------------------------------------
+							Logoff completed
+
+26.12.16 15:34:40.754	Application stopping
+=====================
+26.12.16 15:48:02.491	================================================================================
+26.12.16 15:48:02.491	Trace Log for AirTransSolution.Win.vshost.exe is started
+26.12.16 15:48:02.491	================================================================================
+26.12.16 15:48:02.493	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 4.0.30319.36366
+	eXpressApp Version: 16.1.8.0
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+26.12.16 15:48:02.505	Initialize application
+=======================
+26.12.16 15:48:02.507		Command line arguments: 
+		D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.vshost.exe
+26.12.16 15:48:02.583	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.12.16 15:48:02.583	--------------------------------------------------------------------------------
+							
+
+26.12.16 15:48:02.706	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll
+	AirTransSolution.Module, Version=1.0.6204.27905, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.dll
+	AirTransSolution.Module.Win, Version=1.0.6204.27984, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.Win.dll
+	AirTransSolution.Win, Version=1.0.6204.27985, Culture=neutral, PublicKeyToken=null, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.BonusSkins.v16.1.dll
+	DevExpress.Data.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Data.v16.1.dll
+	DevExpress.ExpressApp.Images.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v16.1.dll
+	DevExpress.ExpressApp.ReportsV2.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v16.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v16.1.dll
+	DevExpress.ExpressApp.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.v16.1.dll
+	DevExpress.ExpressApp.v16.1.resources, Version=16.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v16.1.resources\v4.0_16.1.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v16.1.resources.dll
+	DevExpress.ExpressApp.Win.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v16.1.dll
+	DevExpress.ExpressApp.Xpo.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v16.1.dll
+	DevExpress.Office.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Office.v16.1.Core.dll
+	DevExpress.Persistent.Base.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Persistent.Base.v16.1.dll
+	DevExpress.Persistent.BaseImpl.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v16.1.dll
+	DevExpress.Printing.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Printing.v16.1.Core.dll
+	DevExpress.RichEdit.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v16.1.Core\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.RichEdit.v16.1.Core.dll
+	DevExpress.Utils.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Utils.v16.1.dll
+	DevExpress.Xpo.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.Xpo.v16.1.dll
+	DevExpress.XtraBars.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraBars.v16.1.dll
+	DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraEditors.v16.1.dll
+	DevExpress.XtraGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraGrid.v16.1.dll
+	DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraLayout.v16.1.dll
+	DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraNavBar.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraNavBar.v16.1.dll
+	DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraPrinting.v16.1.dll
+	DevExpress.XtraReports.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraReports.v16.1.dll
+	DevExpress.XtraReports.v16.1.Extensions, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v16.1.Extensions\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraReports.v16.1.Extensions.dll
+	DevExpress.XtraRichEdit.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v16.1.dll
+	DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraTreeList.v16.1.dll
+	DevExpress.XtraVerticalGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v16.1\v4.0_16.1.8.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v16.1.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll
+	System.Deployment.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment.resources\v4.0_4.0.0.0_ru_b03f5f7f11d50a3a\System.Deployment.resources.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	vshost32, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.vshost.exe
+26.12.16 15:48:02.726	SetupModules
+26.12.16 15:48:02.824	Customize TypesInfo
+26.12.16 15:48:02.826	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.12.16 15:48:02.830	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   в DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   в DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   в DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   в DevExpress.ExpressApp.XafApplication.Setup()
+   в AirTransSolution.Win.Program.Main() в d:\Projects\AirTransSolution\AirTransSolution.Win\Program.cs:строка 41
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.12.16 15:48:03.676		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.12.16 15:48:03.676		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.12.16 15:48:03.678	--------------------------------------------------------------------------------
+							Start logon process
+
+26.12.16 15:48:03.678	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.12.16 15:48:03.678		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=AirTransSolution;
+26.12.16 15:48:03.678		ConnectionString: 
+26.12.16 15:48:04.271	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.12.16 15:48:04.357		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=AirTransSolution;
+26.12.16 15:48:04.730	--------------------------------------------------------------------------------
+							Logon successful
+
+26.12.16 15:48:04.739	--------------------------------------------------------------------------------
+							Logon completed
+
+26.12.16 15:48:04.753		startUpActions: 0
+26.12.16 15:48:04.771	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.12.16 15:48:04.777	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:04.777		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.12.16 15:48:04.777		SelectedItem: Visual Studio 2013 Blue
+26.12.16 15:48:04.779	Action 'ChooseSkin' done
+26.12.16 15:48:04.869	Generate default Model for Action containers
+26.12.16 15:48:05.363	Resolve the 'DevExpress.ExpressApp.Win.v16.1.XmlSerializers, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.12.16 15:48:05.402	Resolve the 'DevExpress.ExpressApp.Win.v16.1.XmlSerializers, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.12.16 15:48:05.819	The "AirTransSolution.Module.BusinessObjects.Pilot" type declared with the DefaultProperty value of "Full Name" doesn't contain this property or the property is declared as private
+26.12.16 15:48:06.385	Application startup done
+=========================
+26.12.16 15:48:06.385	Application running
+====================
+26.12.16 15:48:08.146	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:08.146		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 15:48:08.148		SelectedItem: Airplane
+26.12.16 15:48:08.361	Action 'ShowNavigationItem' done
+26.12.16 15:48:10.264	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:10.266		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.12.16 15:48:10.266		SelectedItem: Airport
+26.12.16 15:48:10.495	Action 'ShowNavigationItem' done
+26.12.16 15:48:11.987	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:11.987		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Airport
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Airport(d5fadf24-0c48-4c8b-a3f6-b78422c8cb49)
+
+26.12.16 15:48:12.264	Action 'ListViewShowObject' done
+26.12.16 15:48:18.165	Window closing: Hokkaido - Airport
+26.12.16 15:48:18.171	Window closed: Hokkaido - Airport
+26.12.16 15:48:19.531	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:19.531		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Airport
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Airport(1288cc46-4ae5-454b-831d-46c371926647)
+
+26.12.16 15:48:19.796	Action 'ListViewShowObject' done
+26.12.16 15:48:23.208	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:23.208		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Pilots
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(42c5bbe2-b501-484c-803b-78bc7622e3f0)
+
+26.12.16 15:48:23.321	Action 'ListViewShowObject' done
+26.12.16 15:48:27.857	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:27.857		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Airplanes
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Airbus 8000
+
+26.12.16 15:48:28.122	Action 'ListViewShowObject' done
+26.12.16 15:48:41.579		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Pilots
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(a596b778-4467-47f4-9e90-77bd8086c72f)
+
+26.12.16 15:48:46.044	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:46.044		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogCancel
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Pilot
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(a596b778-4467-47f4-9e90-77bd8086c72f)
+
+26.12.16 15:48:46.046	Window closing: Pilot
+26.12.16 15:48:46.050	Action 'DialogCancel' done
+26.12.16 15:48:46.050	Window closed: Pilot
+26.12.16 15:48:47.412	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:48:47.412		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Pilots
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(a596b778-4467-47f4-9e90-77bd8086c72f)
+
+26.12.16 15:48:47.412		SelectedItem: Pilot
+26.12.16 15:48:47.821	Action 'New' done
+26.12.16 15:48:56.784	Window closing: Pilot
+26.12.16 15:48:56.786	ConfirmationRequest: NeedSaveChanges
+26.12.16 15:48:56.786		DefaultConfirmationResult: No
+26.12.16 15:48:59.075		UserConfirmationResult: No
+26.12.16 15:48:59.077	Window closed: Pilot
+26.12.16 15:49:07.568		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Pilots
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(a596b778-4467-47f4-9e90-77bd8086c72f)
+
+26.12.16 15:49:14.947	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:49:14.949		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Pilot
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 3
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(da24ebc7-5177-4d65-9866-dd9c28a80df9)
+
+26.12.16 15:49:14.949	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:49:14.949		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Pilots
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(a596b778-4467-47f4-9e90-77bd8086c72f)
+
+26.12.16 15:49:15.009	Action 'Link' done
+26.12.16 15:49:15.011	Window closing: Pilot
+26.12.16 15:49:15.015	Action 'DialogOK' done
+26.12.16 15:49:15.015	Window closed: Pilot
+26.12.16 15:49:23.664		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Pilots
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(da24ebc7-5177-4d65-9866-dd9c28a80df9)
+
+26.12.16 15:49:27.632	--------------------------------------------------------------------------------
+							Execute action
+
+26.12.16 15:49:27.632		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogCancel
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Pilot
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: AirTransSolution.Module.BusinessObjects.Pilot(42c5bbe2-b501-484c-803b-78bc7622e3f0)
+
+26.12.16 15:49:27.632	Window closing: Pilot
+26.12.16 15:49:27.636	Action 'DialogCancel' done
+26.12.16 15:49:27.638	Window closed: Pilot

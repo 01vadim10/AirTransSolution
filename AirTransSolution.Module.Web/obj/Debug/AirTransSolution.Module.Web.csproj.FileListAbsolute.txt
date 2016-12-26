@@ -7,3 +7,4 @@ D:\Projects\AirTransSolution\AirTransSolution.Module.Web\obj\Debug\AirTransSolut
 D:\Projects\AirTransSolution\AirTransSolution.Module.Web\obj\Debug\AirTransSolution.Module.Web.csproj.GenerateResource.Cache
 D:\Projects\AirTransSolution\AirTransSolution.Module.Web\obj\Debug\AirTransSolution.Module.Web.dll
 D:\Projects\AirTransSolution\AirTransSolution.Module.Web\obj\Debug\AirTransSolution.Module.Web.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Module.Web\obj\Debug\AirTransSolution.Module.Web.dll.licenses

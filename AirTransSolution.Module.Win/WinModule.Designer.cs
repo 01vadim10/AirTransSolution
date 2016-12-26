@@ -28,6 +28,8 @@
             // 
             this.RequiredModuleTypes.Add(typeof(AirTransSolution.Module.AirTransSolutionModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Win.SystemModule.SystemWindowsFormsModule));
+            this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2));
+
         }
 
         #endregion

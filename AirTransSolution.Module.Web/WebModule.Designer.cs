@@ -28,6 +28,8 @@
             // 
             this.RequiredModuleTypes.Add(typeof(AirTransSolution.Module.AirTransSolutionModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Web.SystemModule.SystemAspNetModule));
+            this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.ReportsV2.Web.ReportsAspNetModuleV2));
+
         }
 
         #endregion

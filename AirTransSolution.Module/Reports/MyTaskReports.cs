@@ -13,5 +13,10 @@ namespace AirTransSolution.Module.Reports
             InitializeComponent();
         }
 
+        private void xrTableCell10_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            var foo = (XRTableCell)sender;
+        }
+
     }
 }

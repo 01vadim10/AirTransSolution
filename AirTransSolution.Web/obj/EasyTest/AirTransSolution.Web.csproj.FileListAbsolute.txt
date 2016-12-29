@@ -1,0 +1,12 @@
+D:\Projects\AirTransSolution\AirTransSolution.Web\bin\AirTransSolution.Web.dll.config
+D:\Projects\AirTransSolution\AirTransSolution.Web\bin\AirTransSolution.Web.dll
+D:\Projects\AirTransSolution\AirTransSolution.Web\bin\AirTransSolution.Web.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Web\bin\AirTransSolution.Module.dll
+D:\Projects\AirTransSolution\AirTransSolution.Web\bin\AirTransSolution.Module.Web.dll
+D:\Projects\AirTransSolution\AirTransSolution.Web\bin\AirTransSolution.Module.Web.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Web\bin\AirTransSolution.Module.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Web\obj\EasyTest\AirTransSolution.Web.csprojResolveAssemblyReference.cache
+D:\Projects\AirTransSolution\AirTransSolution.Web\obj\EasyTest\AirTransSolution.Web.AirTransSolutionAspNetApplication.resources
+D:\Projects\AirTransSolution\AirTransSolution.Web\obj\EasyTest\AirTransSolution.Web.csproj.GenerateResource.Cache
+D:\Projects\AirTransSolution\AirTransSolution.Web\obj\EasyTest\AirTransSolution.Web.dll
+D:\Projects\AirTransSolution\AirTransSolution.Web\obj\EasyTest\AirTransSolution.Web.pdb

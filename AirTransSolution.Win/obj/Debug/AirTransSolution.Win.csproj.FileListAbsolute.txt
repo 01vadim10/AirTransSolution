@@ -1,5 +1,5 @@
-D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe.config
 D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\Model.xafml
+D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe.config
 D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.exe
 D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Win.pdb
 D:\Projects\AirTransSolution\AirTransSolution.Win\bin\Debug\AirTransSolution.Module.dll

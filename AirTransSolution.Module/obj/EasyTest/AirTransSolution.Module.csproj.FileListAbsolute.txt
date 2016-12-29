@@ -1,0 +1,10 @@
+D:\Projects\AirTransSolution\AirTransSolution.Module\bin\EasyTest\AirTransSolution.Module.dll
+D:\Projects\AirTransSolution\AirTransSolution.Module\bin\EasyTest\AirTransSolution.Module.pdb
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\EasyTest\AirTransSolution.Module.csprojResolveAssemblyReference.cache
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\EasyTest\AirTransSolution.Module.AirTransSolutionModule.resources
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\EasyTest\AirTransSolution.Module.Reports.MyTaskReports.resources
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\EasyTest\AirTransSolution.Module.Reports.PilotRep.resources
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\EasyTest\AirTransSolution.Module.csproj.GenerateResource.Cache
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\EasyTest\AirTransSolution.Module.dll.licenses
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\EasyTest\AirTransSolution.Module.dll
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\EasyTest\AirTransSolution.Module.pdb

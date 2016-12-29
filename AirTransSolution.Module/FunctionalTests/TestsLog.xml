@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Date="27.12.2016">
+  <Test Name="sample" ApplicationName="AirTransSolution.Win" Result="Failed" Elapsed="00:00:14.8725543" Started="27.12.2016 12:26:13" ApplicationViews="sample_AirTransSolution.Win_View.jpeg" MachineName="BY01-902" IP="10.10.100.44">
+    <Error Type="DevExpress.EasyTest.Framework.AdapterOperationException">
+      <Message><![CDATA[Cannot find the 'About...' control, OperationTag:'Action', line 7]]></Message>
+    </Error>
+  </Test>
+  <Test Name="sample" ApplicationName="AirTransSolution.Web" Result="Passed" Elapsed="00:00:22.6096406" Started="27.12.2016 12:26:27" MachineName="BY01-902" IP="10.10.100.44" />
+</Tests>

@@ -107,6 +107,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\MultipleController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\MultipleController.Designer.cs">
+      <DependentUpon>MultipleController.cs</DependentUpon>
+    </Compile>
     <Compile Include="WebModule.cs">
       <SubType>Component</SubType>
     </Compile>

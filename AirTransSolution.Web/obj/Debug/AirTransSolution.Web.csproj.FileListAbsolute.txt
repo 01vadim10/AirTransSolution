@@ -8,6 +8,6 @@ D:\Projects\AirTransSolution\AirTransSolution.Web\bin\AirTransSolution.Module.pd
 D:\Projects\AirTransSolution\AirTransSolution.Web\obj\Debug\AirTransSolution.Web.csprojResolveAssemblyReference.cache
 D:\Projects\AirTransSolution\AirTransSolution.Web\obj\Debug\AirTransSolution.Web.AirTransSolutionAspNetApplication.resources
 D:\Projects\AirTransSolution\AirTransSolution.Web\obj\Debug\AirTransSolution.Web.csproj.GenerateResource.Cache
+D:\Projects\AirTransSolution\AirTransSolution.Web\obj\Debug\AirTransSolution.Web.dll.licenses
 D:\Projects\AirTransSolution\AirTransSolution.Web\obj\Debug\AirTransSolution.Web.dll
 D:\Projects\AirTransSolution\AirTransSolution.Web\obj\Debug\AirTransSolution.Web.pdb
-D:\Projects\AirTransSolution\AirTransSolution.Web\obj\Debug\AirTransSolution.Web.dll.licenses

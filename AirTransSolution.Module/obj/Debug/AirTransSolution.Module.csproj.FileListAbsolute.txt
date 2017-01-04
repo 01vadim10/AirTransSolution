@@ -8,3 +8,4 @@ D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.
 D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.dll
 D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.pdb
 D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.csprojResolveAssemblyReference.cache
+D:\Projects\AirTransSolution\AirTransSolution.Module\obj\Debug\AirTransSolution.Module.Controllers.EditFieldController.resources

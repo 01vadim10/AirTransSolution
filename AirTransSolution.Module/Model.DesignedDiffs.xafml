@@ -1,14 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="AirTransSolution" Logo="ExpressAppLogo">
-  <BOModel>
-    <Class Name="DevExpress.ExpressApp.Editors.CriteriaProvider" DefaultListViewAllowEdit="False" />
-  </BOModel>
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="16.1.8.0" IsNewNode="True" />
   </SchemaModules>
-  <Views>
-    <ListView Id="Airplane_ListView" AllowEdit="False">
-      <BandsLayout Enable="False" />
-    </ListView>
-  </Views>
 </Application>

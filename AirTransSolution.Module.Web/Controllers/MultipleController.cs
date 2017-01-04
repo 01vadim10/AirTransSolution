@@ -34,8 +34,8 @@ namespace AirTransSolution.Module.Web.Controllers
 
         void View_SelectionChanged(object sender, EventArgs e)
         {
-//            UpdateConfirmationMsg();
-            _editViewController.EditAction.DoExecute();
+            UpdateConfirmationMsg();
+//            _editViewController.EditAction.BeginUpdate();
         }
 
         private void UpdateConfirmationMsg()

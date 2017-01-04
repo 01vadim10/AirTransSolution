@@ -3,9 +3,9 @@
   <ActionDesign>
     <Actions>
       <Action Id="Edit" SelectionDependencyType="RequireMultipleObjects" />
+      <Action Id="MEdit" SelectionDependencyType="RequireMultipleObjects" />
     </Actions>
   </ActionDesign>
-  <Options CollectionsEditMode="Edit" />
   <SchemaModules>
     <SchemaModule Name="SystemAspNetModule" Version="16.1.8.0" IsNewNode="True" />
     <SchemaModule Name="SystemModule" Version="16.1.8.0" IsNewNode="True" />

@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="AirTransSolution" Logo="ExpressAppLogo">
+  <ActionDesign>
+    <Actions>
+      <Action Id="EditFieldAction" SelectionDependencyType="RequireMultipleObjects" />
+    </Actions>
+  </ActionDesign>
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="16.1.8.0" IsNewNode="True" />
   </SchemaModules>

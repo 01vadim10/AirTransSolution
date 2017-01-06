@@ -1,26 +1,37 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Reflection;
 using AirTransSolution.Module.BusinessObjects;
-using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.Actions;
 using DevExpress.ExpressApp.Editors;
-using DevExpress.ExpressApp.Layout;
-using DevExpress.ExpressApp.Model.NodeGenerators;
 using DevExpress.ExpressApp.SystemModule;
-using DevExpress.ExpressApp.Templates;
 using DevExpress.ExpressApp.Utils;
 using DevExpress.Persistent.Base;
-using DevExpress.Persistent.Validation;
+using DevExpress.Persistent.BaseImpl;
+using DevExpress.Xpo;
+using DevExpress.Xpo.Helpers;
+using DevExpress.XtraReports.UserDesigner;
 
 namespace AirTransSolution.Module.Controllers
 {
     public partial class EditFieldController : ViewController
     {
         private ChoiceActionItem _chooseField;
+        private ArrayList _objectsToProcess;
+
+        [NonPersistent]
+        private class ChangePropertyValue /*: BaseObject*/
+        {
+//            public ChangePropertyValue(Session session) : base(session) { }
+            public string NewPropValue;
+
+//            public string NewPropValue
+//            {
+//                get { return newPropValue; }
+//                set { SetPropertyValue("New Property value", ref newPropValue, value); }
+//            }
+        }
         public EditFieldController()
         {
             InitializeComponent();
@@ -32,11 +43,12 @@ namespace AirTransSolution.Module.Controllers
 
         private void FillItemWithValues(ChoiceActionItem chooseField, Type type)
         {
-            foreach (var field in typeof(Airplane).GetProperties()) {
-                if (field.PropertyType.IsPublic && field.PropertyType.IsSealed && field.PropertyType.IsSerializable && field.PropertyType.IsClass) {
-                    ChoiceActionItem item = new ChoiceActionItem(field.Name, field);
-                    _chooseField.Items.Add(item);
-                }
+            foreach (var field in typeof(Airplane).GetProperties(BindingFlags.Public 
+                | BindingFlags.Instance 
+                | BindingFlags.DeclaredOnly))
+            {
+                ChoiceActionItem item = new ChoiceActionItem(field.Name, field);
+                _chooseField.Items.Add(item);
             }
         }
 
@@ -45,18 +57,50 @@ namespace AirTransSolution.Module.Controllers
             IObjectSpace objectSpace = View is ListView
                 ? Application.CreateObjectSpace()
                 : View.ObjectSpace;
-            ArrayList objectsToProcess = new ArrayList(e.SelectedObjects);
+            _objectsToProcess = new ArrayList(e.SelectedObjects);
             if (e.SelectedChoiceActionItem.ParentItem == _chooseField) {
-                foreach (var obj in objectsToProcess) {
-                    Airplane objInNewObjectSpace = (Airplane) objectSpace.GetObject(obj);
-                    objInNewObjectSpace.Name = e.SelectedChoiceActionItem.Data.ToString();
-                }
+//                var propValue = objectSpace.CreateObject<Airplane>();
+                var propValue = new ChangePropertyValue();
+                e.ShowViewParameters.CreatedView = Application.CreateDetailView(objectSpace, propValue);
+                e.ShowViewParameters.TargetWindow = TargetWindow.Current;
+                DialogController dialogController = new DialogController();
+                dialogController.AcceptAction.ExecuteCompleted += AcceptAction_ExecuteCompleted;
+                e.ShowViewParameters.Controllers.Add(dialogController);
+                Application.ShowViewStrategy.ShowView(e.ShowViewParameters, new ShowViewSource(null, null));
+
+//                foreach (var obj in objectsToProcess) {
+//                    Airplane objInNewObjectSpace = (Airplane) objectSpace.GetObject(obj);
+//                    PropertyInfo propertyInfo = 
+//                        objInNewObjectSpace.GetType().GetProperty(e.SelectedChoiceActionItem.ParentItem.Caption);
+//                    propertyInfo.SetValue(objInNewObjectSpace, Convert.ChangeType(value, propertyInfo.PropertyType), null);
+//                }
             }
+//            if (View is ListView) {
+//                objectSpace.CommitChanges();
+//                View.ObjectSpace.Refresh();
+//            }
+        }
+
+        private void AcceptAction_ExecuteCompleted(object sender, ActionBaseEventArgs e)
+        {
+            IObjectSpace objectSpace = View is ListView
+                ? Application.CreateObjectSpace()
+                : View.ObjectSpace;
+            var newPropertyValue = (ChangePropertyValue)((SimpleActionExecuteEventArgs)e).SelectedObjects[0];
+            foreach (var obj in _objectsToProcess) {
+                Airplane objInNewObjectSpace = (Airplane) objectSpace.GetObject(obj);
+                PropertyInfo propertyInfo = 
+                    objInNewObjectSpace.GetType().GetProperty("Name");
+                propertyInfo.SetValue(objInNewObjectSpace, Convert.ChangeType(newPropertyValue.NewPropValue, propertyInfo.PropertyType), null);
+            }
+
             if (View is ListView) {
+                objectSpace.Delete(newPropertyValue); //Удаляем объект, который использовался для создания нового значения параметра
                 objectSpace.CommitChanges();
                 View.ObjectSpace.Refresh();
             }
         }
+
         protected override void OnActivated()
         {
             base.OnActivated();
@@ -72,6 +116,14 @@ namespace AirTransSolution.Module.Controllers
             // Unsubscribe from previously subscribed events and release other references and resources.
             base.OnDeactivated();
         }
+
+//        private void ChangePropertyAction_CustomizePopupWindowParams(object sender, CustomizePopupWindowParamsEventArgs e)
+//        {
+//            IObjectSpace objectSpace = Application.CreateObjectSpace(typeof(Airplane));
+//            string noteListViewId = Application.FindLookupListViewId(typeof(Airplane));
+//            CollectionSourceBase collectionSource = Application.CreateCollectionSource(objectSpace, typeof(Airplane), noteListViewId);
+//            e.View = Application.CreateListView(noteListViewId, collectionSource, true);
+//        }
     }
 }
 

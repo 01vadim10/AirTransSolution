@@ -1,4 +1,7 @@
-﻿namespace AirTransSolution.Module.Controllers
+﻿using System;
+using DevExpress.ExpressApp.Actions;
+
+namespace AirTransSolution.Module.Controllers
 {
     partial class EditFieldController
     {
@@ -40,6 +43,7 @@
             this.EditFieldAction.ItemType = DevExpress.ExpressApp.Actions.SingleChoiceActionItemType.ItemIsOperation;
             this.EditFieldAction.TargetObjectType = typeof(AirTransSolution.Module.BusinessObjects.Airplane);
             this.EditFieldAction.ToolTip = null;
+            this.EditFieldAction.Execute += new DevExpress.ExpressApp.Actions.SingleChoiceActionExecuteEventHandler(this.EditFieldAction_Execute);
             // 
             // EditFieldController
             // 

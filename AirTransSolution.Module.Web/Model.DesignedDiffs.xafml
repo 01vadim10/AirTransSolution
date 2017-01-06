@@ -1,11 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
-  <ActionDesign>
-    <Actions>
-      <Action Id="Edit" SelectionDependencyType="RequireMultipleObjects" />
-      <Action Id="MEdit" SelectionDependencyType="RequireMultipleObjects" />
-    </Actions>
-  </ActionDesign>
   <SchemaModules>
     <SchemaModule Name="SystemAspNetModule" Version="16.1.8.0" IsNewNode="True" />
     <SchemaModule Name="SystemModule" Version="16.1.8.0" IsNewNode="True" />

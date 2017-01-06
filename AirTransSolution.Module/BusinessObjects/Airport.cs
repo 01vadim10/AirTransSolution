@@ -88,6 +88,20 @@ namespace AirTransSolution.Module.BusinessObjects
             set { SetPropertyValue("Name", ref name, value); }
         }
 
+        private string color;
+        public string Color
+        {
+            get { return color; }
+            set { SetPropertyValue("Color", ref color, value); }
+        }
+
+        private int amountPassengers;
+        public int AmountPassengers
+        {
+            get { return amountPassengers; }
+            set { SetPropertyValue("AmountPassengers", ref amountPassengers, value); }
+        }
+
         [Association("Pilot-Airplanes")]
         public XPCollection<Pilot> Pilots
         {

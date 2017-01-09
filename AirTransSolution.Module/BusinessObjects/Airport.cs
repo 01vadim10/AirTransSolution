@@ -1,8 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
+using AirTransSolution.Module.Controllers;
 using DevExpress.Xpo;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
+using DevExpress.ExpressApp.ConditionalAppearance;
 
 namespace AirTransSolution.Module.BusinessObjects
 {
@@ -76,6 +77,8 @@ namespace AirTransSolution.Module.BusinessObjects
         }
     }
 
+//	[Appearance("DisableApproved", AppearanceItemType = "ViewItem", Criteria = "Status = 'Ready'", Enabled = false, TargetItems = "*", Priority = 0)]
+//	[Appearance("DisableProperty", AppearanceItemType.Action = )]
     [DefaultClassOptions]
     [System.ComponentModel.DefaultProperty("Name")]
     public class Airplane : BaseObject

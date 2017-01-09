@@ -19,18 +19,20 @@ namespace AirTransSolution.Module.Controllers
     {
         private ChoiceActionItem _chooseField;
         private ArrayList _objectsToProcess;
+//        private IObjectSpace objectSpace;
 
-        [NonPersistent]
-        private class ChangePropertyValue /*: BaseObject*/
+//        [NonPersistent]
+        [DefaultClassOptions]
+        private class ChangePropertyValue : BaseObject
         {
-//            public ChangePropertyValue(Session session) : base(session) { }
-            public string NewPropValue;
+            public ChangePropertyValue(Session session) : base(session) { }
+            public string newPropValue;
 
-//            public string NewPropValue
-//            {
-//                get { return newPropValue; }
-//                set { SetPropertyValue("New Property value", ref newPropValue, value); }
-//            }
+            public string NewPropValue
+            {
+                get { return newPropValue; }
+                set { SetPropertyValue("New Property value", ref newPropValue, value); }
+            }
         }
         public EditFieldController()
         {
@@ -43,6 +45,7 @@ namespace AirTransSolution.Module.Controllers
 
         private void FillItemWithValues(ChoiceActionItem chooseField, Type type)
         {
+#warning Reflection using...
             foreach (var field in typeof(Airplane).GetProperties(BindingFlags.Public 
                 | BindingFlags.Instance 
                 | BindingFlags.DeclaredOnly))
@@ -59,44 +62,32 @@ namespace AirTransSolution.Module.Controllers
                 : View.ObjectSpace;
             _objectsToProcess = new ArrayList(e.SelectedObjects);
             if (e.SelectedChoiceActionItem.ParentItem == _chooseField) {
-//                var propValue = objectSpace.CreateObject<Airplane>();
-                var propValue = new ChangePropertyValue();
-                e.ShowViewParameters.CreatedView = Application.CreateDetailView(objectSpace, propValue);
-                e.ShowViewParameters.TargetWindow = TargetWindow.Current;
+                var propValue = objectSpace.CreateObject<Airplane>();
+                var svp = new ShowViewParameters();
+                svp.CreatedView = Application.CreateDetailView(objectSpace, propValue);
+                svp.TargetWindow = TargetWindow.NewModalWindow;
                 DialogController dialogController = new DialogController();
                 dialogController.AcceptAction.ExecuteCompleted += AcceptAction_ExecuteCompleted;
-                e.ShowViewParameters.Controllers.Add(dialogController);
-                Application.ShowViewStrategy.ShowView(e.ShowViewParameters, new ShowViewSource(null, null));
-
-//                foreach (var obj in objectsToProcess) {
-//                    Airplane objInNewObjectSpace = (Airplane) objectSpace.GetObject(obj);
-//                    PropertyInfo propertyInfo = 
-//                        objInNewObjectSpace.GetType().GetProperty(e.SelectedChoiceActionItem.ParentItem.Caption);
-//                    propertyInfo.SetValue(objInNewObjectSpace, Convert.ChangeType(value, propertyInfo.PropertyType), null);
-//                }
+//                TargetViewId = EditFieldAction.SelectedItem.Id;
+                svp.Controllers.Add(dialogController);
+                Application.ShowViewStrategy.ShowView(svp, new ShowViewSource(null, null));
+                objectSpace.Delete(propValue);
             }
-//            if (View is ListView) {
-//                objectSpace.CommitChanges();
-//                View.ObjectSpace.Refresh();
-//            }
         }
 
         private void AcceptAction_ExecuteCompleted(object sender, ActionBaseEventArgs e)
         {
-            IObjectSpace objectSpace = View is ListView
-                ? Application.CreateObjectSpace()
-                : View.ObjectSpace;
-            var newPropertyValue = (ChangePropertyValue)((SimpleActionExecuteEventArgs)e).SelectedObjects[0];
+            var propertyName = EditFieldAction.SelectedItem.Id;
+            var newPropertyValue = (Airplane)((SimpleActionExecuteEventArgs)e).SelectedObjects[0];
+#warning Reflection using...
             foreach (var obj in _objectsToProcess) {
-                Airplane objInNewObjectSpace = (Airplane) objectSpace.GetObject(obj);
                 PropertyInfo propertyInfo = 
-                    objInNewObjectSpace.GetType().GetProperty("Name");
-                propertyInfo.SetValue(objInNewObjectSpace, Convert.ChangeType(newPropertyValue.NewPropValue, propertyInfo.PropertyType), null);
+                    obj.GetType().GetProperty(propertyName);
+                propertyInfo.SetValue(obj, Convert.ChangeType(propertyInfo.GetValue(newPropertyValue), propertyInfo.PropertyType), null);
             }
 
             if (View is ListView) {
-                objectSpace.Delete(newPropertyValue); //Удаляем объект, который использовался для создания нового значения параметра
-                objectSpace.CommitChanges();
+                View.ObjectSpace.CommitChanges();
                 View.ObjectSpace.Refresh();
             }
         }
